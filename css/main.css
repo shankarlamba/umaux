@@ -1,0 +1,179 @@
+.Content {
+    min-height: 100%;
+    width: 100%;
+ 
+    .Content-body {
+        width: 100%;
+      
+      } 
+
+  }
+  .Content-body {
+    width: 100%;
+  
+  }
+  
+  .TopNav-wrapper {
+    position: fixed;
+    left: 50%;
+    height: 0;
+    z-index: 100;
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  
+  
+  }
+  @media (min-width: 1280px) {
+    .TopNav-wrapper {
+      top: 60px;
+      width: 1002px;
+      margin-left: -501px;
+  
+    }
+  }
+  .TopNavMenu-hamburger {
+    position: absolute;
+    z-index: 100;
+    right: 10px;
+    cursor: pointer;
+    transform-origin: 20% 50%;
+    opacity: 1;
+    width: 44px;
+    height: 44px;
+  
+  }
+  @media (min-width: 1280px) {
+    .TopNavMenu-hamburger {
+      right: -48px;
+      top: -13px;
+      transform-origin: 10px 50%;
+    }
+  }
+  
+  .TopNavMenu-hamburger div {
+    background-color: #000;
+    transition: 500ms background cubic-bezier(0.19, 1, 0.22, 1), 500ms margin-top cubic-bezier(0.19, 1, 0.22, 1), 500ms margin-bottom cubic-bezier(0.19, 1, 0.22, 1), 500ms transform cubic-bezier(0.19, 1, 0.22, 1) 83ms;
+    height: 2px;
+    position: absolute;
+    transform-origin: 50% 50%;
+  }
+  @media (min-width: 1280px) {
+    .TopNavMenu-hamburger div {
+      width: 24px;
+      left: 10px;
+    }
+  }
+  .TopNavMenu-hamburger #line-1 {
+    top: 17px;
+  }
+  .TopNavMenu-hamburger #line-1:after {
+    transition: 670ms transform cubic-bezier(0.19, 1, 0.22, 1) 150ms, 200ms opacity;
+  }
+  .TopNavMenu-hamburger #line-2 {
+    bottom: 17px;
+  }
+  .TopNavMenu-hamburger #line-2:after {
+    transition: 670ms transform cubic-bezier(0.19, 1, 0.22, 1) 233ms, 200ms opacity;
+  }
+
+  @media (min-width: 1280px) {
+    .ProjectsContainer {
+      margin-top: 216px;
+    }
+  }
+  @media (min-width: 1152px) and (max-width: 1279px) {
+    .ProjectsContainer {
+      margin-top: 152px;
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1151px) {
+    .ProjectsContainer {
+      margin-top: 135px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .ProjectsContainer {
+      margin-top: 98px;
+    }
+  }
+  @media (min-width: 667px) and (max-width: 767px) {
+    .ProjectsContainer {
+      margin-top: 84px;
+    }
+  }
+  @media (max-width: 666px) {
+    .ProjectsContainer{
+      margin-top: 77px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .isDesktop .ProjectsContainer {
+      margin-top: 64.8px;
+    }
+  }
+  @media (min-width: 1152px) and (max-width: 1279px) {
+    .isDesktop .ProjectsContainer {
+      margin-top: 45.6px;
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1151px) {
+    .isDesktop .ProjectsContainer {
+      margin-top: 47.6px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .isDesktop .ProjectsContainer {
+      padding-bottom: 40px;
+    }
+  }
+  @media (min-width: 1152px) and (max-width: 1279px) {
+    .isDesktop .ProjectsContainer {
+      padding-bottom: 40px;
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1151px) {
+    .isDesktop .ProjectsContainer{
+      padding-bottom: 40px;
+    }
+  }
+  .Projects-wrapper {
+    position: relative;
+    margin: 0 auto;
+    font-size: 0;
+    line-height: 0;
+    background-color: aqua;
+    height: 500px;
+  }
+  @media (min-width: 1280px) {
+    .Projects-wrapper {
+      width: 1002px;
+    }
+  }
+  @media (min-width: 1152px) and (max-width: 1279px) {
+    .Projects-wrapper {
+      width: 910px;
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1151px) {
+    .Projects-wrapper {
+      width: 820px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .Projects-wrapper {
+      width: 620px;
+    }
+  }
+  @media (min-width: 667px) and (max-width: 767px) {
+    .Projects-wrapper {
+      width: 535px;
+    }
+  }
+  @media (max-width: 666px) {
+    .Projects-wrapper {
+      width: 375px;
+    }
+  }
+
+ 

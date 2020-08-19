@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <style>
+    .viewport {
+      position: relative;
+      width: 328px;
+    }
+
+    .viewport:hover img {
+      opacity: 0;
+    }
+
+    .viewport:hover video {
+      opacity: 1;
+    }
+
+    img {
+    
+      width: 328px;
+      opacity: 1;
+    
+    }
+
+    .fade {
+      transition: opacity .5s ease-in-out;
+    }
+
+    video {
+      position: absolute;;
+      width: 328px;
+      top: 0px;
+      left: 0px;
+      opacity: 0;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="viewport">
+      <img class="fade" src="img/coolwinks.png">
+
+      <video id="video" class="fade" autoplay="true"
+      muted="muted">
+        <source src="img/coolwinks.mp4" type="video/mp4" perload >
+      </video>
+    
+      
+
+    </div>
+
+    <script>
+      var viewport = document.getElementsByClassName('viewport')[0]
+      var video = document.getElementById('video')
+      viewport.addEventListener('mouseover', function() { this.play() }, false);
+      viewport.addEventListener('mouseout', function () {
+        this.pause ()
+        video.currentTime = 0;
+        viewport.currentTime = 0;
+        this.currentTime = 0;
+
+})
+    
+    </script>
+
+  </body>
+</html>
